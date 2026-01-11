@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Keizo | Portofolio</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-900 text-white min-h-screen">
+    <!-- NAVBAR -->
+    <nav class="bg-[#0F172A] sticky top-0 z-10 shadow-lg">
+      <div
+        class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="text-white text-2xl font-bold">Keizo.</a>
+        <div class="flex space-x-6">
+          <a href="#home" class="text-white hover:text-yellow-500 transition"
+            >Home</a
+          >
+          <a href="#about" class="text-white hover:text-yellow-500 transition"
+            >About</a
+          >
+          <a
+            href="#projects"
+            class="text-white hover:text-yellow-500 transition"
+            >Projects</a
+          >
+          <a
+            href="#contanct"
+            class="text-white hover:text-yellow-500 transition"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- HERO -->
+    <header id="home" class="bg-[#020617] text-white text-center py-20 shadow-lg">
+      <h1 class="text-4xl font-bold">
+        Hi, I'm
+        <span
+          class="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
+          >Keizo</span
+        >
+      </h1>
+      <p class="mt-4 text-xl text-gray-500">
+        Backend Developer | Self-Thaught Developer | Programmer Enthusiast
+      </p>
+      <a
+        href="#projects"
+        class="mt-6 inline-block px-6 py-3 bg-yellow-500 text-black rounded-lg hover:bg-yellow-400 transition"
+        >See My Work</a
+      >
+    </header>
+    <!-- ABOUT -->
+    <section id="about" class="py-20 bg-slate-800 shadow-lg">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-6 text-white">About Me</h2>
+        <p class="text-lg text-gray-300">
+          I am a backend-focused developer who enjoys working with databases,
+          algorithms, and server-side logic. I love exploring how systems work
+          behind the scenes and learning by building projects that challenge me.
+        </p>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects" class="py-20 bg-[#0F172A] shadow-lg">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-6 text-white">My Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div
+            class="bg-gray-800 dark:bg-gray-700 shadow-lg rounded-lg overflow-hidden"
+          >
+            <img
+              src="images/074d0b06-a5e3-11e2-8b7f-9f09eb2ddfae.webp"
+              alt="Project 1"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-white">
+                My First GitHub Repo
+              </h3>
+              <p class="mt-2 text-gray-300">
+                This is my first GitHub Repo that I've ever made.
+              </p>
+              <a
+                href="https://github.com/mkeizoa-hash/SimpleProjects"
+                class="mt-4 text-yellow-500 hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
